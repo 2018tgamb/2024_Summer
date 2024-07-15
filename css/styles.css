@@ -12,6 +12,7 @@
  */
 :root {
   --bs-blue: #0d6efd;
+  --bs-blue-s: #5CC4EE;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
   --bs-pink: #d63384;
@@ -41,8 +42,8 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 238, 75, 56;
-  --bs-secondary-rgb: 240, 89, 182;
+  --bs-primary-rgb: 43, 113, 183;
+  --bs-secondary-rgb: 32, 94, 170;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 255, 193, 7;
@@ -85,7 +86,7 @@ body {
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
   /* background-color: var(--bs-body-bg); */
-  background-image: linear-gradient(-20deg, #f9e5ef 0%, #f7f8ee 100%);
+  background-image: linear-gradient(-20deg, #CAEEFB 0%, #fcfcfc 100%);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -123,7 +124,7 @@ h1, .h1 {
 
 h2, .h2 {
   font-size: calc(1.475rem + 2.7vw);
-  font-family: "Kalam", "Noto Sans",sans-serif;
+  font-family: "Noto Sans",sans-serif;
 }
 @media (min-width: 1200px) {
   h2, .h2 {
@@ -221,7 +222,7 @@ blockquote:not(:first-of-type) {
   margin-top: .5em;
 }
 blockquote p {
-  color: #EE4B38;
+  color: #2A71B7;
   font-size: 1.25rem;
   font-style: oblique;
   line-height: 1.4;
@@ -11375,7 +11376,7 @@ p.lead {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 1.4rem;
-  color: var(--bs-pink);
+  color: var(--bs-blue-s);
 }
 
 #sideNav {
